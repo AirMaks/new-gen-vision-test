@@ -42,6 +42,7 @@ let requiredRange: (number | null)[] = [null, 300];
 let requiredRange1 = [null, 200];
 let requiredRange2 = [100, 350];
 let requiredRange3 = [501, null];
+
 export default function filter(
   courses: ICourses[],
   pricesArr: (number | null)[]

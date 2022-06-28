@@ -1,0 +1,1 @@
+- Simple filter algorithm iterating the array of objects and finds the range between four values (course prices and range prices) and returning new object;
