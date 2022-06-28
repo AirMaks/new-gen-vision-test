@@ -26,18 +26,6 @@ interface ICourses {
   prices: (number | null)[];
 }
 
-// Список курсов
-let courses: ICourses[] = [
-  { name: "Courses in England", prices: [0, 100] },
-  { name: "Courses in Germany", prices: [501, null] },
-  { name: "Courses in Italy", prices: [400, null] },
-  { name: "Courses in Russia", prices: [null, 400] },
-  { name: "Courses in China", prices: [501, 1000] },
-  { name: "Courses in USA", prices: [200, null] },
-  { name: "Courses in Kazakhstan", prices: [56, 324] },
-  { name: "Courses in France", prices: [null, null] }
-];
-
 export default function filter(
   courses: ICourses[],
   pricesArr: (number | null)[]
