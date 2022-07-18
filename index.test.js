@@ -47,14 +47,7 @@ test("it is equal", () => {
     { name: "Courses in Italy", prices: [400, null] },
     { name: "Courses in China", prices: [501, 1000] },
     { name: "Courses in USA", prices: [200, null] },
-    { name: "Courses in Japan", prices: [1001, 2000] }
-  ]);
-
-  expect(filter(courses, requiredRange3)).toStrictEqual([
-    { name: "Courses in Germany", prices: [501, null] },
-    { name: "Courses in Italy", prices: [400, null] },
-    { name: "Courses in China", prices: [501, 1000] },
-    { name: "Courses in USA", prices: [200, null] },
+    { name: "Courses in Romania", prices: [1001, null] },
     { name: "Courses in Japan", prices: [1001, 2000] }
   ]);
 
