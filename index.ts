@@ -16,10 +16,7 @@ export default function filter(
 
     if (coursePriceFrom === 0 && coursePriceTo === Infinity) return null;
 
-    return (
-      (from === coursePriceFrom && from <= coursePriceFrom) ||
-      (from <= coursePriceTo && to >= coursePriceFrom)
-    );
+    return from <= coursePriceTo && to >= coursePriceFrom;
   });
 }
 
